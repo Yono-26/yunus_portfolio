@@ -13,7 +13,7 @@ const Education = () => {
       institution: 'Mohamed Sathak College of Arts and Science',
       period: '2022 – 2025',
       location: 'Chennai, Tamil Nadu',
-      status: 'In Progress',
+      status: 'Completed',
       description: 'Comprehensive computer science program covering software development, database management, and system analysis.',
       highlights: ['Software Engineering', 'Database Systems', 'Web Development', 'Programming Languages']
     },

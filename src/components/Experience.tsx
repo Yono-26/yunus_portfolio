@@ -37,10 +37,11 @@ const Experience = () => {
             </p>
           </div>
 
-          <div className="relative">
+          <div className="relative space-y-8">
             {/* Timeline Line */}
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
             
+            {/* Current Position */}
             <Card className="bg-gradient-card border-border/50 shadow-card relative ml-16">
               {/* Timeline Dot */}
               <div className="absolute -left-[73px] top-8 w-4 h-4 bg-primary rounded-full border-4 border-background glow-effect" />
@@ -54,7 +55,7 @@ const Experience = () => {
                         <Building className="text-primary" size={24} />
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-primary">Flutter Developer Intern</h3>
+                        <h3 className="text-xl font-bold text-primary">Mobile Application Developer</h3>
                         <h4 className="text-lg font-semibold text-foreground">Uncia Technologies Pvt. Ltd</h4>
                       </div>
                     </div>
@@ -62,43 +63,31 @@ const Experience = () => {
                     <div className="space-y-4">
                       <div className="flex items-center gap-2 text-muted-foreground">
                         <Calendar size={16} />
-                        <span>January 2025 – June 2025</span>
+                        <span>July 2025 – Present</span>
                       </div>
                       
                       <div className="flex items-center gap-2 text-muted-foreground">
                         <MapPin size={16} />
-                        <span>Remote / Hybrid</span>
+                        <span>Chennai, Tamil Nadu · On-site</span>
                       </div>
 
                       <div className="space-y-3 pt-4">
                         <h5 className="font-semibold flex items-center gap-2">
                           <Code2 size={16} className="text-accent" />
-                          Key Responsibilities & Achievements
+                          Current Role & Responsibilities
                         </h5>
                         <ul className="space-y-2">
                           <li className="flex items-start gap-2 text-muted-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                            Developed real-time Flutter applications with modern architecture patterns
+                            Leading mobile application development using Flutter and Dart
                           </li>
                           <li className="flex items-start gap-2 text-muted-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
-                            Collaborated with cross-functional development teams on multiple projects
+                            Implementing BLoC pattern for state management in production apps
                           </li>
                           <li className="flex items-start gap-2 text-muted-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                            Implemented state management solutions using Provider and BLoC patterns
-                          </li>
-                          <li className="flex items-start gap-2 text-muted-foreground">
-                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                            Integrated Firebase services for backend functionality and real-time data
-                          </li>
-                          <li className="flex items-start gap-2 text-muted-foreground">
-                            <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
-                            Built responsive UIs following Material Design guidelines
-                          </li>
-                          <li className="flex items-start gap-2 text-muted-foreground">
-                            <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                            Gained hands-on experience with version control, code reviews, and agile methodologies
+                            Collaborating with cross-functional teams on full-time projects
                           </li>
                         </ul>
                       </div>
@@ -109,7 +98,7 @@ const Experience = () => {
                   <div className="space-y-4">
                     <h5 className="font-semibold">Technologies Used</h5>
                     <div className="flex flex-wrap gap-2">
-                      {['Flutter', 'Dart', 'Firebase', 'Provider', 'BLoC', 'REST API', 'Git', 'Material Design'].map((tech) => (
+                      {['Flutter', 'Dart', 'BLoC', 'Firebase', 'REST API', 'Git'].map((tech) => (
                         <span
                           key={tech}
                           className="px-2 py-1 rounded text-xs bg-primary/10 text-primary border border-primary/20"
@@ -118,21 +107,112 @@ const Experience = () => {
                         </span>
                       ))}
                     </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Internship */}
+            <Card className="bg-gradient-card border-border/50 shadow-card relative ml-16">
+              {/* Timeline Dot */}
+              <div className="absolute -left-[73px] top-8 w-4 h-4 bg-secondary rounded-full border-4 border-background glow-effect" />
+              
+              <CardContent className="p-8">
+                <div className="grid md:grid-cols-3 gap-6">
+                  {/* Company Info */}
+                  <div className="md:col-span-2">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="p-3 rounded-xl bg-secondary/10 border border-secondary/20">
+                        <Building className="text-secondary" size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-secondary">Flutter Developer Intern</h3>
+                        <h4 className="text-lg font-semibold text-foreground">Uncia Technologies Pvt. Ltd</h4>
+                      </div>
+                    </div>
+
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-2 text-muted-foreground">
+                        <Calendar size={16} />
+                        <span>January 2025 – June 2025 · 6 mos</span>
+                      </div>
+                      
+                      <div className="flex items-center gap-2 text-muted-foreground">
+                        <MapPin size={16} />
+                        <span>Chennai, Tamil Nadu, India · On-site</span>
+                      </div>
+
+                      <div className="space-y-3 pt-4">
+                        <h5 className="font-semibold flex items-center gap-2">
+                          <Code2 size={16} className="text-accent" />
+                          Responsibilities & Experience
+                        </h5>
+                        <ul className="space-y-2 text-sm">
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
+                            Gained hands-on experience in Flutter framework and Dart language for mobile app development
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                            Learned and implemented various Flutter architectures and state management techniques like Provider
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                            Worked with REST APIs for data integration and display in dynamic UI components
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
+                            Implemented Firebase services such as Authentication and Firestore for real-time database and user management
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                            Built CRUD functionality using Hive DB for local data persistence
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                            Developed multiple mini-projects: Expense Tracker App, News App, Google Sign-In App, Simple Notes App
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
+                            Acquired complete understanding of end-to-end Flutter app development lifecycle, including UI/UX, API handling, state management, and deployment practices
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Technologies Used */}
+                  <div className="space-y-4">
+                    <h5 className="font-semibold">Technologies Used</h5>
+                    <div className="flex flex-wrap gap-2">
+                      {['Flutter', 'Dart', 'Firebase', 'Provider', 'Hive', 'REST API', 'BLoC'].map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-2 py-1 rounded text-xs bg-secondary/10 text-secondary border border-secondary/20"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
 
                     <div className="pt-4">
-                      <h5 className="font-semibold mb-2">Impact</h5>
+                      <h5 className="font-semibold mb-2">Projects Built</h5>
                       <div className="text-sm text-muted-foreground space-y-2">
                         <div className="flex justify-between">
-                          <span>Projects Contributed</span>
-                          <span className="font-medium text-primary">5+</span>
+                          <span>Expense Tracker</span>
+                          <span className="font-medium text-primary">Provider + Hive</span>
                         </div>
                         <div className="flex justify-between">
-                          <span>Code Reviews</span>
-                          <span className="font-medium text-secondary">20+</span>
+                          <span>News App</span>
+                          <span className="font-medium text-secondary">REST API</span>
                         </div>
                         <div className="flex justify-between">
-                          <span>Learning Hours</span>
-                          <span className="font-medium text-accent">800+</span>
+                          <span>Google Sign-In</span>
+                          <span className="font-medium text-accent">Firebase Auth</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>Notes App</span>
+                          <span className="font-medium text-primary">CRUD + Hive</span>
                         </div>
                       </div>
                     </div>

@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const navItems = [
     { id: 'hero', label: 'Home' },
@@ -20,6 +21,9 @@ const Navigation = () => {
     const handleScroll = () => {
       const sections = navItems.map(item => document.getElementById(item.id));
       const scrollPosition = window.scrollY + 100;
+
+      // Handle navigation minimize animation
+      setIsScrolled(window.scrollY > 50);
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
@@ -43,11 +47,19 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-lg' 
+        : 'bg-background/80 backdrop-blur-md border-b border-border'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className={`flex justify-between items-center transition-all duration-300 ${
+          isScrolled ? 'h-12' : 'h-16'
+        }`}>
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold hero-text">JMY</span>
+            <span className={`font-bold hero-text transition-all duration-300 ${
+              isScrolled ? 'text-lg' : 'text-xl'
+            }`}>JMY</span>
           </div>
 
           {/* Desktop Navigation */}

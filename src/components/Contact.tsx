@@ -65,12 +65,6 @@ const Contact = () => {
       href: 'mailto:mohamedyunus2604@gmail.com'
     },
     {
-      icon: <Phone className="text-secondary" size={24} />,
-      label: 'Phone',
-      value: '+91 6379487355',
-      href: 'tel:+916379487355'
-    },
-    {
       icon: <MapPin className="text-accent" size={24} />,
       label: 'Location',
       value: 'Chennai, Tamil Nadu',
