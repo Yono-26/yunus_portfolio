@@ -57,9 +57,13 @@ const Navigation = () => {
           isScrolled ? 'h-12' : 'h-16'
         }`}>
           <div className="flex-shrink-0">
-            <span className={`font-bold hero-text transition-all duration-300 ${
-              isScrolled ? 'text-lg' : 'text-xl'
-            }`}>JMY</span>
+            <img 
+              src="/lovable-uploads/3f5b12e8-05bf-4363-bc36-f19f87a53b65.png" 
+              alt="Y Logo" 
+              className={`transition-all duration-300 ${
+                isScrolled ? 'h-8 w-8' : 'h-10 w-10'
+              }`}
+            />
           </div>
 
           {/* Desktop Navigation */}

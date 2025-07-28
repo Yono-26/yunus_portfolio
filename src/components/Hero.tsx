@@ -62,14 +62,14 @@ const Hero = () => {
             </Button>
             
             <Button variant="outline" size="lg" className="group" asChild>
-              <a href="#" className="flex items-center gap-2">
+              <a href="http://linkedin.com/in/yunus2604" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Linkedin size={20} className="group-hover:text-primary transition-colors" />
                 LinkedIn
               </a>
             </Button>
             
             <Button variant="outline" size="lg" className="group" asChild>
-              <a href="#" className="flex items-center gap-2">
+              <a href="https://github.com/Yono-26" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Github size={20} className="group-hover:text-primary transition-colors" />
                 GitHub
               </a>

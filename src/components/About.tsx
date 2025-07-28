@@ -51,34 +51,6 @@ const About = () => {
                   </p>
                 </CardContent>
               </Card>
-
-              <Card className="bg-gradient-card border-border/50 shadow-card">
-                <CardContent className="p-8">
-                  <div className="flex items-center gap-3 mb-4">
-                    <Heart className="text-secondary" size={24} />
-                    <h3 className="text-xl font-semibold">What I Love</h3>
-                  </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    I'm driven by the challenge of turning complex problems into simple, beautiful 
-                    solutions. Whether it's crafting pixel-perfect UIs or optimizing app performance, 
-                    I approach every project with enthusiasm and attention to detail.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-gradient-card border-border/50 shadow-card">
-                <CardContent className="p-8">
-                  <div className="flex items-center gap-3 mb-4">
-                    <Coffee className="text-accent" size={24} />
-                    <h3 className="text-xl font-semibold">Beyond Code</h3>
-                  </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    When I'm not coding, you'll find me exploring new technologies, contributing to 
-                    open-source projects, or sharing my knowledge with the developer community. 
-                    I believe in continuous learning and staying updated with the latest trends.
-                  </p>
-                </CardContent>
-              </Card>
             </div>
 
             {/* Stats */}

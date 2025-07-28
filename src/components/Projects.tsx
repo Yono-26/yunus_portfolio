@@ -22,8 +22,8 @@ const Projects = () => {
         'Income-expense summary dashboard',
         'Responsive material design UI'
       ],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Yono-26/ExpenseTracker',
+      demo: 'https://github.com/Yono-26/ExpenseTracker',
       gradient: 'from-primary to-primary-glow'
     },
     {
@@ -39,8 +39,8 @@ const Projects = () => {
         'Responsive UI across devices',
         'Category-based news filtering'
       ],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Yono-26/ExpenseTracker',
+      demo: 'https://github.com/Yono-26/ExpenseTracker',
       gradient: 'from-secondary to-secondary-glow'
     }
   ];
@@ -124,13 +124,13 @@ const Projects = () => {
 
                   <div className="flex gap-3 pt-4">
                     <Button variant="outline" size="sm" className="group" asChild>
-                      <a href={project.github} className="flex items-center gap-2">
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                         <Github size={16} className="group-hover:text-primary transition-colors" />
                         Code
                       </a>
                     </Button>
                     <Button size="sm" className="group" asChild>
-                      <a href={project.demo} className="flex items-center gap-2">
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                         <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
                         Live Demo
                       </a>
@@ -147,7 +147,7 @@ const Projects = () => {
               Want to see more of my work?
             </p>
             <Button variant="outline" size="lg" className="group" asChild>
-              <a href="#" className="flex items-center gap-2">
+              <a href="https://github.com/Yono-26" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Github size={20} className="group-hover:text-primary transition-colors" />
                 View All Projects on GitHub
               </a>
