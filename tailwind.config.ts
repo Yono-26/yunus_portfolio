@@ -79,7 +79,8 @@ export default {
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
-				'mono': ['JetBrains Mono', 'Fira Code', 'monospace']
+				'mono': ['JetBrains Mono', 'Fira Code', 'monospace'],
+				'orbitron': ['Orbitron', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
