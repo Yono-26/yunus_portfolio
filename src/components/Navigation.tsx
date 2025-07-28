@@ -61,7 +61,7 @@ const Navigation = () => {
               isScrolled ? 'p-1' : 'p-1.5'
             }`}>
               <img 
-                src="/lovable-uploads/3f5b12e8-05bf-4363-bc36-f19f87a53b65.png" 
+                src="/lovable-uploads/f654b2f0-e74d-4c57-91a8-f3052021cd1d.png" 
                 alt="Y Logo" 
                 className={`transition-all duration-300 ${
                   isScrolled ? 'h-6 w-6' : 'h-8 w-8'

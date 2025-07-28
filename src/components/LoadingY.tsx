@@ -10,9 +10,9 @@ const LoadingY = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="relative">
             <img 
-              src="/lovable-uploads/3f5b12e8-05bf-4363-bc36-f19f87a53b65.png" 
+              src="/lovable-uploads/f654b2f0-e74d-4c57-91a8-f3052021cd1d.png" 
               alt="Loading Y" 
-              className="w-8 h-8 rounded-full bg-background p-1 shadow-lg"
+              className="w-8 h-8"
             />
             {/* Glow effect */}
             <div className="absolute inset-0 w-8 h-8 bg-primary/30 rounded-full animate-pulse blur-sm" />
