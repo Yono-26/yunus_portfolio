@@ -57,13 +57,17 @@ const Navigation = () => {
           isScrolled ? 'h-12' : 'h-16'
         }`}>
           <div className="flex-shrink-0">
-            <img 
-              src="/lovable-uploads/3f5b12e8-05bf-4363-bc36-f19f87a53b65.png" 
-              alt="Y Logo" 
-              className={`transition-all duration-300 ${
-                isScrolled ? 'h-8 w-8' : 'h-10 w-10'
-              }`}
-            />
+            <div className={`relative rounded-full bg-card border border-border/50 shadow-lg transition-all duration-300 ${
+              isScrolled ? 'p-1' : 'p-1.5'
+            }`}>
+              <img 
+                src="/lovable-uploads/3f5b12e8-05bf-4363-bc36-f19f87a53b65.png" 
+                alt="Y Logo" 
+                className={`transition-all duration-300 ${
+                  isScrolled ? 'h-6 w-6' : 'h-8 w-8'
+                }`}
+              />
+            </div>
           </div>
 
           {/* Desktop Navigation */}
