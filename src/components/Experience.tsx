@@ -76,6 +76,10 @@ const Experience = () => {
                           <Code2 size={16} className="text-accent" />
                           Current Role & Responsibilities
                         </h5>
+                        <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-4">
+                          <h6 className="font-medium text-primary mb-2">Current Project: ICICI Onboarding Application</h6>
+                          <p className="text-sm text-muted-foreground">Working on bug fixes and issue handling for production banking application</p>
+                        </div>
                         <ul className="space-y-2">
                           <li className="flex items-start gap-2 text-muted-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
@@ -87,7 +91,11 @@ const Experience = () => {
                           </li>
                           <li className="flex items-start gap-2 text-muted-foreground">
                             <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                            Collaborating with cross-functional teams on full-time projects
+                            Working on ICICI Onboarding application for bug fixes and issue resolution
+                          </li>
+                          <li className="flex items-start gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
+                            Collaborating with cross-functional teams on full-time banking projects
                           </li>
                         </ul>
                       </div>
