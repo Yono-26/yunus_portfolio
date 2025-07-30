@@ -76,7 +76,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid gap-8 lg:grid-cols-2">
             {projects.map((project, index) => (
               <Card 
                 key={project.id} 

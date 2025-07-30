@@ -54,32 +54,32 @@ const About = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-6">
-              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-8">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
+              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-4 sm:p-8">
                 <CardContent className="p-0">
-                  <div className="text-4xl font-bold hero-text mb-2">6+</div>
-                  <div className="text-muted-foreground">Months Experience</div>
+                  <div className="text-2xl sm:text-4xl font-bold hero-text mb-2">6+</div>
+                  <div className="text-muted-foreground text-xs sm:text-sm">Months Experience</div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-8">
+              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-4 sm:p-8">
                 <CardContent className="p-0">
-                  <div className="text-4xl font-bold hero-text mb-2">10+</div>
-                  <div className="text-muted-foreground">Technologies</div>
+                  <div className="text-2xl sm:text-4xl font-bold hero-text mb-2">10+</div>
+                  <div className="text-muted-foreground text-xs sm:text-sm">Technologies</div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-8">
+              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-4 sm:p-8">
                 <CardContent className="p-0">
-                  <div className="text-4xl font-bold hero-text mb-2">5+</div>
-                  <div className="text-muted-foreground">Projects Built</div>
+                  <div className="text-2xl sm:text-4xl font-bold hero-text mb-2">5+</div>
+                  <div className="text-muted-foreground text-xs sm:text-sm">Projects Built</div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-8">
+              <Card className="bg-gradient-card border-border/50 shadow-card text-center p-4 sm:p-8">
                 <CardContent className="p-0">
-                  <div className="text-4xl font-bold hero-text mb-2">3+</div>
-                  <div className="text-muted-foreground">Certifications</div>
+                  <div className="text-2xl sm:text-4xl font-bold hero-text mb-2">3+</div>
+                  <div className="text-muted-foreground text-xs sm:text-sm">Certifications</div>
                 </CardContent>
               </Card>
             </div>

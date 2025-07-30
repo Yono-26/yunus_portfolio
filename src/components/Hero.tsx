@@ -31,28 +31,28 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-background/60" />
       
-      {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl float-animation" />
-      <div className="absolute top-40 right-20 w-32 h-32 bg-secondary/20 rounded-full blur-xl float-animation" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-20 left-20 w-24 h-24 bg-accent/20 rounded-full blur-xl float-animation" style={{ animationDelay: '4s' }} />
+      {/* Floating Elements - Hidden on mobile for better performance */}
+      <div className="hidden sm:block absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl float-animation" />
+      <div className="hidden sm:block absolute top-40 right-20 w-32 h-32 bg-secondary/20 rounded-full blur-xl float-animation" style={{ animationDelay: '2s' }} />
+      <div className="hidden sm:block absolute bottom-20 left-20 w-24 h-24 bg-accent/20 rounded-full blur-xl float-animation" style={{ animationDelay: '4s' }} />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             <span className="hero-text">J Mohamed Yunus</span>
           </h1>
           
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-primary mb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4">
             Flutter Developer
           </h2>
           
-          <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4">
             Building clean, efficient, and scalable cross-platform apps.
           </p>
 
           {/* Social Links */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-12 px-4">
             <Button variant="outline" size="lg" className="group" asChild>
               <a href="mailto:mohamedyunus2604@gmail.com" className="flex items-center gap-2">
                 <Mail size={20} className="group-hover:text-primary transition-colors" />
