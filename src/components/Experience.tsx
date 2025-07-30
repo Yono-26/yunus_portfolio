@@ -38,13 +38,13 @@ const Experience = () => {
           </div>
 
           <div className="relative space-y-8">
-            {/* Timeline Line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
+            {/* Timeline Line - Hidden on mobile */}
+            <div className="absolute left-4 sm:left-8 top-0 bottom-0 w-0.5 bg-gradient-primary opacity-30 hidden sm:block" />
             
             {/* Current Position */}
-            <Card className="bg-gradient-card border-border/50 shadow-card relative ml-16">
-              {/* Timeline Dot */}
-              <div className="absolute -left-[73px] top-8 w-4 h-4 bg-primary rounded-full border-4 border-background glow-effect" />
+            <Card className="bg-gradient-card border-border/50 shadow-card relative sm:ml-16">
+              {/* Timeline Dot - Hidden on mobile */}
+              <div className="absolute -left-[73px] top-8 w-4 h-4 bg-primary rounded-full border-4 border-background glow-effect hidden sm:block" />
               
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-3 gap-6">
@@ -113,9 +113,9 @@ const Experience = () => {
             </Card>
 
             {/* Internship */}
-            <Card className="bg-gradient-card border-border/50 shadow-card relative ml-16">
-              {/* Timeline Dot */}
-              <div className="absolute -left-[73px] top-8 w-4 h-4 bg-secondary rounded-full border-4 border-background glow-effect" />
+            <Card className="bg-gradient-card border-border/50 shadow-card relative sm:ml-16">
+              {/* Timeline Dot - Hidden on mobile */}
+              <div className="absolute -left-[73px] top-8 w-4 h-4 bg-secondary rounded-full border-4 border-background glow-effect hidden sm:block" />
               
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-3 gap-6">
