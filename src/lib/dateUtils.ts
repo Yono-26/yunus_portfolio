@@ -14,8 +14,7 @@ export function formatExperienceDuration(
     ? new Date(endDate.year, endDate.month - 1, 1) 
     : new Date();
 
-  // Add 1 to include both start and end months (inclusive)
-  const totalMonths = differenceInMonths(end, start) + 1;
+  const totalMonths = differenceInMonths(end, start);
   const years = Math.floor(totalMonths / 12);
   const months = totalMonths % 12;
 
