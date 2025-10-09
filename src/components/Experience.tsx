@@ -157,7 +157,7 @@ const Experience = () => {
                     <div className="space-y-4">
                       <div className="flex items-center gap-2 text-muted-foreground">
                         <Calendar size={16} />
-                        <span>{formatExperiencePeriod({ month: 1, year: 2025 }, { month: 6, year: 2025 })}</span>
+                        <span>{formatExperiencePeriod({ month: 1, year: 2025 }, { month: 7, year: 2025 })}</span>
                       </div>
                       
                       <div className="flex items-center gap-2 text-muted-foreground">
