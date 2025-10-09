@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowDown, Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { ArrowDown, Mail, Phone, Linkedin, Github, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-bg.jpg';
 
@@ -72,6 +72,13 @@ const Hero = () => {
               <a href="https://github.com/Yono-26" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Github size={20} className="group-hover:text-primary transition-colors" />
                 GitHub
+              </a>
+            </Button>
+
+            <Button variant="outline" size="lg" className="group" asChild>
+              <a href="/MohamedYunus_Resume.pdf" download="MohamedYunus_Resume.pdf" className="flex items-center gap-2">
+                <Download size={20} className="group-hover:text-primary transition-colors" />
+                Resume
               </a>
             </Button>
           </div>
