@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Building, Calendar, MapPin, Code2 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { formatExperiencePeriod } from '@/lib/dateUtils';
 
 const Experience = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -77,7 +78,7 @@ const Experience = () => {
                     <div className="space-y-4">
                       <div className="flex items-center gap-2 text-muted-foreground">
                         <Calendar size={16} />
-                        <span>July 2025 – Present</span>
+                        <span>{formatExperiencePeriod({ month: 7, year: 2025 })}</span>
                       </div>
                       
                       <div className="flex items-center gap-2 text-muted-foreground">
@@ -156,7 +157,7 @@ const Experience = () => {
                     <div className="space-y-4">
                       <div className="flex items-center gap-2 text-muted-foreground">
                         <Calendar size={16} />
-                        <span>January 2025 – June 2025 · 6 mos</span>
+                        <span>{formatExperiencePeriod({ month: 1, year: 2025 }, { month: 6, year: 2025 })}</span>
                       </div>
                       
                       <div className="flex items-center gap-2 text-muted-foreground">
