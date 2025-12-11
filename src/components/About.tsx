@@ -58,10 +58,8 @@ const About = () => {
                     <h3 className="text-xl font-semibold">My Journey</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    I'm a passionate Flutter developer with a BCA degree and 6 months of real-time 
-                    internship experience. I specialize in Flutter, Dart, Firebase, and state management 
-                    tools like Provider and BLoC. I love building elegant UIs, integrating APIs, and 
-                    creating smooth user experiences.
+                    I'm a dedicated Flutter developer who transitioned from a 6-month internship to a full-time Mobile App Developer role.
+Currently working on the ICICI Onboarding Application, where I focus on production bug fixing, issue resolution, BLoC-based state management, and delivering stable releases for a banking application. I collaborate with backend and QA teams to ensure smooth workflows and high-quality mobile experiences.
                   </p>
                 </CardContent>
               </Card>
